@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97542bab3511b541a97266123a064cc, type: 3}
+  m_Name: School_Clownfish
+  m_EditorClassIdentifier: Assembly-CSharp::MultiCamCapture.Demo.FishSchoolSO
+  speciesName: Clownfish
+  fishPrefab: {fileID: 3951509551875025073, guid: b00321f70ae5a4a988b2b63f652b6ba2, type: 3}
+  countRange: {x: 10, y: 18}
+  flockId: 0
+  minSpeed: 1.6
+  maxSpeed: 3.2
+  isPredator: 0
+  threatDetectionRadius: 7
+  panicSpeedMultiplier: 1.6
+  depthPreference: 2
+  depthSteeringWeight: 2.5
+  scaleMultiplierRange: {x: 0.25, y: 0.35}

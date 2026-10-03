@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97542bab3511b541a97266123a064cc, type: 3}
+  m_Name: School_BluefinTuna
+  m_EditorClassIdentifier: Assembly-CSharp::MultiCamCapture.Demo.FishSchoolSO
+  speciesName: Bluefin Tuna
+  fishPrefab: {fileID: 8712976814286065986, guid: c1266830247dc474c9c720e46603a1e7, type: 3}
+  countRange: {x: 4, y: 8}
+  flockId: 22
+  minSpeed: 3
+  maxSpeed: 6
+  isPredator: 0
+  threatDetectionRadius: 7
+  panicSpeedMultiplier: 1.6
+  depthPreference: 1
+  depthSteeringWeight: 2.5
+  scaleMultiplierRange: {x: 0.55, y: 0.8}

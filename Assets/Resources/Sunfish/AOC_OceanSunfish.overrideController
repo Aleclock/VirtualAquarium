@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AOC_OceanSunfish
+  m_Controller: {fileID: 9100000, guid: 9bb21948c595042b081915ddc68d5e11, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -9052673528755155433, guid: 723f56de7911946c2bf37790b231d480, type: 3}
+    m_OverrideClip: {fileID: -5326724806728802200, guid: 0cfe37eae2d044d638a6644d9605a413, type: 3}
+  - m_OriginalClip: {fileID: 8323166163743700370, guid: 723f56de7911946c2bf37790b231d480, type: 3}
+    m_OverrideClip: {fileID: -5326724806728802200, guid: 0cfe37eae2d044d638a6644d9605a413, type: 3}
+  - m_OriginalClip: {fileID: -5326724806728802200, guid: 723f56de7911946c2bf37790b231d480, type: 3}
+    m_OverrideClip: {fileID: -5326724806728802200, guid: 0cfe37eae2d044d638a6644d9605a413, type: 3}
+  - m_OriginalClip: {fileID: -5048415774819352012, guid: 723f56de7911946c2bf37790b231d480, type: 3}
+    m_OverrideClip: {fileID: -5048415774819352012, guid: 0cfe37eae2d044d638a6644d9605a413, type: 3}
+  - m_OriginalClip: {fileID: -4977210580334121839, guid: 723f56de7911946c2bf37790b231d480, type: 3}
+    m_OverrideClip: {fileID: -4977210580334121839, guid: 0cfe37eae2d044d638a6644d9605a413, type: 3}
+  - m_OriginalClip: {fileID: -6044885858450037028, guid: 723f56de7911946c2bf37790b231d480, type: 3}
+    m_OverrideClip: {fileID: -6044885858450037028, guid: 0cfe37eae2d044d638a6644d9605a413, type: 3}

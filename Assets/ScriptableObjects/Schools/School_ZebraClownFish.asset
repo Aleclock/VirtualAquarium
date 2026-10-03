@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97542bab3511b541a97266123a064cc, type: 3}
+  m_Name: School_ZebraClownFish
+  m_EditorClassIdentifier: Assembly-CSharp::MultiCamCapture.Demo.FishSchoolSO
+  speciesName: Zebra Clown Fish
+  fishPrefab: {fileID: 5613946718783826972, guid: 98082ca58c03947448888199853ac29f, type: 3}
+  countRange: {x: 8, y: 15}
+  flockId: 1
+  minSpeed: 1.6
+  maxSpeed: 3.2
+  isPredator: 0
+  threatDetectionRadius: 7
+  panicSpeedMultiplier: 1.6
+  depthPreference: 2
+  depthSteeringWeight: 2.5
+  scaleMultiplierRange: {x: 0.25, y: 0.35}

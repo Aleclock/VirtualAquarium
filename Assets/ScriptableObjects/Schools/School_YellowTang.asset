@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97542bab3511b541a97266123a064cc, type: 3}
+  m_Name: School_YellowTang
+  m_EditorClassIdentifier: Assembly-CSharp::MultiCamCapture.Demo.FishSchoolSO
+  speciesName: Yellow Tang
+  fishPrefab: {fileID: 4040077522811094489, guid: 544fd1dbda1ce485b9028d80b8034291, type: 3}
+  countRange: {x: 6, y: 12}
+  flockId: 3
+  minSpeed: 2
+  maxSpeed: 3.8
+  isPredator: 0
+  threatDetectionRadius: 7
+  panicSpeedMultiplier: 1.6
+  depthPreference: 2
+  depthSteeringWeight: 2.5
+  scaleMultiplierRange: {x: 0.3, y: 0.42}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97542bab3511b541a97266123a064cc, type: 3}
+  m_Name: School_Cowfish
+  m_EditorClassIdentifier: Assembly-CSharp::MultiCamCapture.Demo.FishSchoolSO
+  speciesName: Cowfish
+  fishPrefab: {fileID: 63932538633168461, guid: b4dcbfc2a4104427c90485dbdc1cbb74, type: 3}
+  countRange: {x: 2, y: 3}
+  flockId: 28
+  minSpeed: 0.9
+  maxSpeed: 2.2
+  isPredator: 0
+  threatDetectionRadius: 7
+  panicSpeedMultiplier: 1.6
+  depthPreference: 3
+  depthSteeringWeight: 2.5
+  scaleMultiplierRange: {x: 0.3, y: 0.42}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c096beee192d3947a0272d5497723c6, type: 3}
+  m_Name: DefaultAquariumCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MultiCamCapture.Demo.FishCatalogSO
+  catalogName: Tropical & Marine Aquarium Catalog
+  schools:
+  - {fileID: 11400000, guid: 83c02f5a16b8c45f88e70809338ecee0, type: 2}
+  - {fileID: 11400000, guid: 9d65074a1d7f34eca9a538c74a8d62a7, type: 2}
+  - {fileID: 11400000, guid: 536274386b0174e0fb9d7497b20d0e93, type: 2}
+  - {fileID: 11400000, guid: 9212426df40de42b4b89cf472abba968, type: 2}
+  - {fileID: 11400000, guid: ebe476ae8a16e4c84b225f9f94683d38, type: 2}
+  - {fileID: 11400000, guid: 2cfec50c8efca43e1b956ef7f3fcb57c, type: 2}
+  - {fileID: 11400000, guid: 8ffd6f36a43ad4694baeaed287856ecb, type: 2}
+  - {fileID: 11400000, guid: 4a5fe7a332ac34969a955de73c2a3771, type: 2}
+  - {fileID: 11400000, guid: a81a7ae05caa042ffaa06f2ed759819c, type: 2}
+  - {fileID: 11400000, guid: 6c5823176ea8e4f08b538583d5d5791a, type: 2}
+  - {fileID: 11400000, guid: 1bd9eada8987e4b36901ccedfb033cb6, type: 2}
+  - {fileID: 11400000, guid: d155393e4265848a285979de703223a7, type: 2}
+  - {fileID: 11400000, guid: c5ee0b6e08295468f870764c3a33e791, type: 2}
+  - {fileID: 11400000, guid: 9e34a6a4a23444277abd2e46f32be1ce, type: 2}
+  - {fileID: 11400000, guid: 02ef20e99ec8b4347a4d829f3c3516a8, type: 2}
+  - {fileID: 11400000, guid: 6178c18b9bcd64b9aa3fb608fdf69076, type: 2}
+  - {fileID: 11400000, guid: d5d0a49eab8bc42bca68ea4e0e6b7963, type: 2}
+  - {fileID: 11400000, guid: 49dbdd13eb207428ca4866a294d343ea, type: 2}
+  - {fileID: 11400000, guid: 10b6d918019754028b889c3d1d1ad8cb, type: 2}
+  - {fileID: 11400000, guid: ecbe78f655ce94bbf9172d436a57fc32, type: 2}
+  - {fileID: 11400000, guid: 47fd3448487804aea9e94e9dbb008e6c, type: 2}
+  - {fileID: 11400000, guid: 4feb1ee7278dc4626b426e30a0e0b48d, type: 2}
+  - {fileID: 11400000, guid: e6ddaec0759a44567aba63f278e78236, type: 2}
+  - {fileID: 11400000, guid: d1a55df9cc16a4117ba79d1e76367089, type: 2}
+  - {fileID: 11400000, guid: 5c14cdc5d7a4d49e4882a23eb8a64033, type: 2}
+  - {fileID: 11400000, guid: 8f328fb444cf14830a9e77bd6a0375d4, type: 2}
+  - {fileID: 11400000, guid: aa641204729114b58832237baac00465, type: 2}
+  - {fileID: 11400000, guid: 9e7fb26e95e1e453e9751b48a1093b49, type: 2}
+  - {fileID: 11400000, guid: 7d186ec6ea32e43d4bcc58d26f4ffe73, type: 2}
+  - {fileID: 11400000, guid: 106113512364640498dc0420d579f8a9, type: 2}
+  - {fileID: 11400000, guid: 7230edf63a40c450a9db108ca8800048, type: 2}
+  - {fileID: 11400000, guid: bcfb6c49ed3094e479b0e38976afadf5, type: 2}
+  - {fileID: 11400000, guid: 4dc007f119f6949209c8382a007d95e8, type: 2}
+  - {fileID: 11400000, guid: ec94bbe99e6404ee8a90facb1c35dea3, type: 2}
+  - {fileID: 11400000, guid: 10a4e801f87c746f28fb759f0d3a081f, type: 2}
+  rawPrefabs: []
+  rawPrefabCountRange: {x: 5, y: 15}
