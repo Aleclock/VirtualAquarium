@@ -3,6 +3,10 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
+.DS_Store
+*.DS_Store
+Assets/Temp/
+Assets/Temp.meta
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/

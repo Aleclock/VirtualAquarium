@@ -101,7 +101,8 @@ namespace MultiCamCapture.Editor
             new FishDefinition("Piranha", "Piranha.fbx", "Piranha", new Vector2Int(6, 12), 2.2f, 4.5f, new Vector2(0.28f, 0.4f), true, DepthZone.MidWater),
         };
 
-        [MenuItem("Aquarium/Run Full Setup")]
+        // MenuItem removed to prevent accidental overwrite of scene setup and seabed decorations.
+        // Use "Aquarium/Decorate Seabed" instead.
         public static void RunFullSetup()
         {
             EnsureDirectories();
@@ -376,7 +377,7 @@ namespace MultiCamCapture.Editor
                 sandFloor = GameObject.CreatePrimitive(PrimitiveType.Plane);
                 sandFloor.name = "Sand Floor";
             }
-            sandFloor.transform.position = new Vector3(0f, -10f, 0f);
+            sandFloor.transform.position = new Vector3(0f, -9.05f, 0f);
             sandFloor.transform.localScale = new Vector3(10f, 1f, 8f); // 100m x 80m
             if (sandMat != null)
             {

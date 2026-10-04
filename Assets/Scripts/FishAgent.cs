@@ -142,8 +142,12 @@ namespace MultiCamCapture.Demo
             AllFish.Remove(this);
         }
 
+        public bool IsPlayerControlled { get; set; } = false;
+
         private void Update()
         {
+            if (IsPlayerControlled) return;
+
             float dt = Time.deltaTime;
             if (dt <= 0f) return;
 
