@@ -18,7 +18,7 @@ namespace MultiCamCapture.Editor
         [SerializeField] private float horizonExtension = 1.35f;
         [SerializeField] private int randomSeed = 1337;
         [SerializeField] private int bubbleVentCount = 8;
-        [SerializeField] private bool combineMeshes = true;
+        [SerializeField] private bool combineMeshes = false;
         [SerializeField] private bool optimizeShadows = true;
 
         private Vector2 scrollPos;

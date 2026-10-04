@@ -39,7 +39,7 @@ namespace MultiCamCapture.Editor
                 horizonPadding = 1.35f,
                 seed = 1337,
                 bubbleVents = 8,
-                combineMeshes = true,
+                combineMeshes = false,
                 optimizeShadows = true
             };
         }
@@ -734,12 +734,23 @@ namespace MultiCamCapture.Editor
                 combinedMesh.indexFormat = IndexFormat.UInt32; // Support large mesh batches
                 combinedMesh.CombineMeshes(combines.ToArray(), true, true);
 
+                // Save combined mesh to disk as binary .asset to prevent YAML scene/prefab bloat (>100MB)
+                string genDir = "Assets/Resources/Seabed/Generated";
+                if (!Directory.Exists(genDir))
+                {
+                    Directory.CreateDirectory(genDir);
+                }
+                string assetPath = $"{genDir}/{combinedMesh.name}.asset";
+                AssetDatabase.CreateAsset(combinedMesh, assetPath);
+
                 mf.sharedMesh = combinedMesh;
                 mr.sharedMaterial = mat;
                 mr.shadowCastingMode = mat.name.Contains("Plant") || mat.name.Contains("Fauna")
                     ? ShadowCastingMode.Off
                     : ShadowCastingMode.On;
             }
+
+            AssetDatabase.SaveAssets();
         }
 
         private static Color PickCategoryColor(Category category)
