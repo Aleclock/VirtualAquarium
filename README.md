@@ -2,6 +2,8 @@
 
 A modular, high-performance 3D underwater simulation and procedural aquarium environment package for Unity (Universal Render Pipeline). Compatible with **Unity 2022.3 LTS**, **Unity 2023**, and **Unity 6+**.
 
+![Virtual Aquarium Scene Preview](_docs/screenshot_aquarium.png)
+
 ---
 
 ## ✨ Features
