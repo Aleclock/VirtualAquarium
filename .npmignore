@@ -1,0 +1,13 @@
+.git/
+.github/
+.vscode/
+.DS_Store
+*.DS_Store
+Library/
+Temp/
+Logs/
+Obj/
+UserSettings/
+Build/
+Builds/
+_docs/

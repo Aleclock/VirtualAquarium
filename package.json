@@ -1,0 +1,37 @@
+{
+  "name": "com.aleclock.virtualaquarium",
+  "version": "1.0.0",
+  "displayName": "Virtual Aquarium",
+  "description": "A modular, high-performance 3D underwater simulation and procedural aquarium environment package for Unity URP.",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://github.com/Aleclock/VirtualAquarium",
+  "changelogUrl": "https://github.com/Aleclock/VirtualAquarium/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Aleclock/VirtualAquarium/blob/main/LICENSE.md",
+  "keywords": [
+    "aquarium",
+    "fish",
+    "boids",
+    "flocking",
+    "seabed",
+    "underwater",
+    "urp",
+    "simulation"
+  ],
+  "author": {
+    "name": "Alessandro Clocchiatti",
+    "email": "clock.alessandro@gmail.com",
+    "url": "https://github.com/Aleclock"
+  },
+  "dependencies": {
+    "com.unity.inputsystem": "1.5.0",
+    "com.unity.render-pipelines.universal": "14.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Aquarium Demo Scene",
+      "description": "Complete interactive aquarium scene with fish schools, player controls, and seabed environment.",
+      "path": "Samples~/AquariumDemo"
+    }
+  ]
+}
